@@ -1,0 +1,80 @@
+.forms-center {
+   text-align: center;
+}
+
+.body-background {    
+    /* background: linear-gradient(blue, pink); */
+    background: rgb(154,131,141);
+    background: radial-gradient(circle, rgba(154,131,141,1) 2%, rgba(82,145,222,1) 100%);
+}
+
+body {
+    min-height: 100vh;
+    
+}
+#weather-img {
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    
+}
+#meteo {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-top: 3rem!important;  
+}
+h2 {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    /* margin-top: 3rem!important;   */
+}
+
+.form-control-local {
+    display: flex;
+    /* width: 100%; */    
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-group-local {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 15rem;
+    margin-right: 1rem;
+    align-content: space-between;
+}
+
+.my-image {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen  and (min-width: 200px) and (max-width: 640px) {
+
+    .form-group-local {
+        display: flex;
+        margin-left: 5rem;
+       
+    }
+
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {  
+    .form-group-local {
+        display: flex;
+        margin-left: 8rem;
+       
+    }
+}
